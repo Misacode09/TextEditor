@@ -1,0 +1,23 @@
+#include "sample.h"
+ 
+A ICON MOVEABLE PURE LOADONCALL DISCARDABLE "sample.ico"
+ 
+MAINMENU MENU 
+{
+  POPUP "文件"
+ {
+  MENUITEM "打开文件", CM_FILE_OPEN
+  MENUITEM "保存..", CM_FILE_SAVEAS
+  MENUITEM SEPARATOR
+  MENUITEM "关闭", CM_FILE_EXIT
+ }
+ 
+ POPUP "帮助" 
+ {
+  MENUITEM "关于程序", CM_ABOUT
+  MENUITEM "网页帮助", CM_HELP
+ }
+ 
+}
+
+
